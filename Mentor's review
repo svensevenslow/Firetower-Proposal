@@ -1,0 +1,25 @@
+The project proposal has been reviewed by the mentor.
+Following are the comments of the mentor.
+
+  1 Regarding adding editor hooks.
+  
+    Comment: One of the biggest issues with editors that do not run in a terminal is that there is often not an 
+    implicit working directory, so on top of configuring hooks it would also have to determine a working directory
+ 
+  
+  2 Regarding standardizing the command line by bringing it more in-line with how other UNIX tools behave, thereby making 
+    Firetower’s command parsing more robust.
+  
+    Comment: This is huge. What exists right now is quite sloppy. It would probably be easier if this happened before 
+    named or multiple-per-directories.
+  
+  3 Regarding checking cross-terminal compatibility
+  
+    Comment: Firetower make heavy use of PIDs and UNIX signals, I have no idea of how well it would play with windows. 
+    Very low on my priority list.
+    
+  4 Regarding the timeline
+    
+    Comment:A heads up,the hooks are completely different from the core firetower code. There is nothing about them 
+    that they couldn't be done in tandem,depending on team size or what people are interested in.
+
