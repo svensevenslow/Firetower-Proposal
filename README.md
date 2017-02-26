@@ -1,11 +1,14 @@
 # Firetower-Proposal
 
+
 **TEAM LOCATION:** Chandigarh, India
 
 **TIME ZONE:** GMT+5:30 (Indian Standard Time)
 
 
+
 **PERSONAL DETAILS OF TEAM MEMBERS**
+
 
 **Name :** Kainaat Singh
 
@@ -15,7 +18,9 @@
 
 **Github :** [muskan98](https://github.com/muskan98)
 
+
 **PERSONAL DETAILS OF COACHES**
+
 
 **Name:** Anhad Jai Singh
 
@@ -95,6 +100,7 @@ Delays and glitches are inevitable. Two catch up weeks have been scheduled.One n
 **PRIOR EXPERIENCE**
 
 **Kainaat Singh**
+
 I am currently a first year student in college.I have been programming in C for the past 6 months. Linux is my primary operating system for the same duration and I use vim as my text editor. I am interested in learning about UNIX-like systems and have actively started learning bash. I am also familiar with HTML and CSS and occasionally use gedit for my editing needs.
 
 **Online presence:**
@@ -108,6 +114,7 @@ I am currently a first year student in college.I have been programming in C for 
 **Hackerrank:**[kainaat_singh](https://www.hackerrank.com/kainaat_singh)
 
 **Muskan Sharma**
+
 I have some experience with C. I also dabble  in Java, HTML, CSS and Javascript occasionally. I work primarily on Linux and I’ve been using Sublime as my text editor for the past few months. I am interested in learning more about UNIX-like systems.
 
 **Online presence:**
@@ -148,7 +155,7 @@ We are  first year students eager to learn new things and would really like to g
 The work and projects are very interesting. Community learning has contributed in a big way to the development of our programming skills and understanding of computer languages. We want to start giving back to the Free and Open Source community that has given us so much both in terms of software, experience and guidance. Thus we would love to take part in this summer of code.
 
 
-**##REFERENCES**
+**REFERENCES**
 
 [1] http://stackoverflow.com/research/developer-survey-2015
 
