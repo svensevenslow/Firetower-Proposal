@@ -62,15 +62,18 @@ Presently firetower does not work properly when it receives incompatible multipl
 
 Another problem with the command line parsing in Firetower is that it expects the arguments to the program to be in a very specific order that is at times counter intuitive to regular UNIX tool users. (Github Issue [#6](https://github.com/mweitzel/firetower/issues/6)) For example:
 
-firetower -c “echo foo bar” --directory=/tmp  # Works
-firetower --directory=/tmp -c “echo foo bar”  # This does not
+
+       firetower -c “echo foo bar” --directory=/tmp  # Works
+
+       firetower --directory=/tmp -c “echo foo bar”  # This does not
 
 From a logical stand-point there should be no difference between the two. Looking at the code, this seems to be caused by the same “$1” issue.
 
 Lastly, it would be nice to have short-forms of some existing long-form command line arguments. (Github Issue [#7](https://github.com/mweitzel/firetower/issues/7)) Such as:
 
- -p for --preserve-scrollback 
- -d dir_name for --directory=dir_name
+    -p for --preserve-scrollback 
+
+    -d dir_name for --directory=dir_name
 
 The other side of improved user experience is better cross-terminal compatibility. As part of the project, we’ll attempt to check terminal compatibility of Firetower with commonly used terminals such as xterm, gnome-terminal, guake, iTerm, Windows Shell based on time constraints.
 
@@ -142,12 +145,12 @@ We both have a workspace available in our college and have regular interaction a
 
 **COMMUNITY LEARNING**
 
-We are both part of the Computer Science society in our college. Workshops are held regularly to discuss programming concepts. We are encouraged to take part in programming contests as well as in development work. Our peer group helps in creating the environment required for competitive programming and open source work. We participate in programming contests that are held locally in our college.
+We are both part of the Computer Science society in our college. Workshops are held regularly to discuss programming concepts.  Our peer group helps in creating an evironment condusive to  competitive programming and open source work.
 
 
 **WHY US?**
 
-We are  first year students eager to learn new things and would really like to gain practical knowledge and experience outside the scope of our curriculum by working on a real world project. We find ourselves fascinated by Linux and would thus like to improve our understanding of its  fundamentals. We’ve have been using Ubuntu for the past 6 months and have recently taken to learning bash and forcing ourselves to use vim. This project seems to be the perfect opportunity for us to learn and grow.
+We are  first year students eager to learn new things and would really like to gain practical knowledge and experience outside the scope of our curriculum by working on a real world project. We find ourselves fascinated by Linux and would thus like to improve our understanding of its  fundamentals. We’ve been using Ubuntu for the past 6 months and have recently taken to learning bash and forcing ourselves to use vim. This project seems to be the perfect opportunity for us to learn and grow.
 
 
 **WHY RAIL GIRLS SUMMER OF CODE ?**
