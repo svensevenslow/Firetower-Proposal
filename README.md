@@ -71,9 +71,9 @@ From a logical stand-point there should be no difference between the two. Lookin
 
 Lastly, it would be nice to have short-forms of some existing long-form command line arguments. (Github Issue [#7](https://github.com/mweitzel/firetower/issues/7)) Such as:
 
-    -p for --preserve-scrollback 
-
-    -d dir_name for --directory=dir_name
+       -p for --preserve-scrollback 
+       
+       -d dir_name for --directory=dir_name
 
 The other side of improved user experience is better cross-terminal compatibility. As part of the project, we’ll attempt to check terminal compatibility of Firetower with commonly used terminals such as xterm, gnome-terminal, guake, iTerm, Windows Shell based on time constraints.
 
