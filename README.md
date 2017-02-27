@@ -48,7 +48,10 @@ Make parameter parsing more robust by fixing argument parsing and providing shor
 
 As we have seen, Firetower is a tool that makes developers more efficient by eliminating repetitive work.
 
-The first order of  business would be to make Firetower available to a wider audience and to achieve this goal it is necessary that Firetower is compatible with a wider set of editors. The choice of editors is fluid but we can draw inspiration from the stackoverflow developer survey of 2015[1] and pick popular ones such as Sublime Text, Atom.io etc. (Github Issue [#3](https://github.com/mweitzel/firetower/issues/3), [#4](https://github.com/mweitzel/firetower/issues/4)).
+The first order of  business would be to make Firetower available to a wider audience and to achieve this goal it is necessary that Firetower is compatible with a wider set of editors. The choice of editors is fluid but we can draw inspiration from the stackoverflow developer survey of 2015[1] and pick popular ones such as Sublime Text, Atom.io etc. 
+One of the biggest problems for editors which do not run in the terminal is that there is no implicit working directory,so on 
+top of configuring hooks we will also have to determine a working directory.
+(Github Issue [#3](https://github.com/mweitzel/firetower/issues/3), [#4](https://github.com/mweitzel/firetower/issues/4)).
 As part of preliminary research, we’ve found that sublime does not provide native save hooks, but this functionality is available via a [sublime-hooks plugin](https://github.com/twolfson/sublime-hooks)  which gives event level bindings to other sublime plugins. This can be used to run firetower -r command when a file is saved.
 
 Often developer workflows are more complex than running a single command repeatedly. Adding the ability to run multiple instances of Firetower per working directory (Github Issue [#5](https://github.com/mweitzel/firetower/issues/5)) allows developers with more complex workflows to utilize Firetower and become more efficient.  
@@ -75,7 +78,7 @@ Lastly, it would be nice to have short-forms of some existing long-form command 
        
        -d dir_name for --directory=dir_name
 
-The other side of improved user experience is better cross-terminal compatibility. As part of the project, we’ll attempt to check terminal compatibility of Firetower with commonly used terminals such as xterm, gnome-terminal, guake, iTerm, Windows Shell based on time constraints.
+The other side of improved user experience is better cross-terminal compatibility. As part of the project, we’ll attempt to check terminal compatibility of Firetower with commonly used terminals such as xterm, gnome-terminal, guake, iTerm based on time constraints.
 
 
 **TIMELINE**
@@ -87,14 +90,13 @@ We have arranged the work in successive weeks in increasing order of difficulty 
 
 |Week Number(s)|Work Allotted|
 |---|---|
-|1,2|Explore Sublime, Atom’s plugin frameworks. Figure out a way to leverage them to run with Firetower by either writing a plugin, extending the user configuration files or using existing plugins.|
-|3,4|Allow multiple instances of Firetower per working directory resolve issues such as restarting all process or just certain ones by referring to them .|
-|5|First catch up and review period.Use this time to get feedback about methodology and approach.Use this time to recalibrate expectations, redefine goals and restructure timeline incase we fall behind due to unforeseen circumstances.|
-|6,7|Check Firetower compatibility with different terminals.|
-|8,9,10|Make argument parsing more robust. Taking care of cases with conflicting arguments.Allowing anyorder of arguments to be accepted.Add short-form flags for optional arguments|
-|11 |Second catch up and review period.|
-|12|Resolve  any remaining issues. Get final approval of mentor and completion of documentation.|
-
+|1,2,3|The primary focus will be to allow multiple instances of Firetower per working directory, resolve issues such as restarting all process or just certain ones by referring to them .We will simultaneously also explore Sublime, Atom’s plugin frameworks. Figure out a way to leverage them to run with Firetower by either writing a plugin, extending the user configuration files or using existing plugins.|
+|4|First catch up and review period.Use this time to get feedback about methodology and approach.Use this time to recalibrate expectations, redefine goals and restructure timeline incase we fall behind due to unforeseen circumstances.|
+|5,6|Check Firetower compatibility with different terminals.|
+|7,8,9|Make argument parsing more robust. Taking care of cases with conflicting arguments.Allowing anyorder of arguments to be accepted.Add short-form flags for optional arguments|
+|10 |Second catch up and review period.|
+|11|Resolve  any remaining issues.|
+|12|Final approval of mentor and completion of documentation.|
 
 
 Delays and glitches are inevitable. Two catch up weeks have been scheduled.One near the half way mark to  restructure our approach if required and complete any pending work.The second catch up period is scheduled to ensure everything is working efficiently and project is completed as scheduled.
