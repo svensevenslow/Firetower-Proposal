@@ -90,10 +90,10 @@ We have arranged the work in successive weeks in increasing order of difficulty 
 
 |Week Number(s)|Work Allotted|
 |---|---|
-|1,2,3|The primary focus will be to allow multiple instances of Firetower per working directory, resolve issues such as restarting all process or just certain ones by referring to them .We will simultaneously also explore Sublime, Atom’s plugin frameworks. Figure out a way to leverage them to run with Firetower by either writing a plugin, extending the user configuration files or using existing plugins.|
+|1,2,3|Make argument parsing more robust. Taking care of cases with conflicting arguments.Allowing any order of arguments to be accepted.Add short-form flags for optional arguments|
 |4|First catch up and review period.Use this time to get feedback about methodology and approach.Use this time to recalibrate expectations, redefine goals and restructure timeline incase we fall behind due to unforeseen circumstances.|
-|5,6|Check Firetower compatibility with different terminals.|
-|7,8,9|Make argument parsing more robust. Taking care of cases with conflicting arguments.Allowing anyorder of arguments to be accepted.Add short-form flags for optional arguments|
+|5,6,7|The primary focus will be to allow multiple instances of Firetower per working directory, resolve issues such as restarting all process or just certain ones by referring to them .We will simultaneously also explore Sublime, Atom’s plugin frameworks. Figure out a way to leverage them to run with Firetower by either writing a plugin, extending the user configuration files or using existing plugins.|
+|8,9|Check Firetower compatibility with different terminals.|
 |10 |Second catch up and review period.|
 |11|Resolve  any remaining issues.|
 |12|Final approval of mentor and completion of documentation.|
